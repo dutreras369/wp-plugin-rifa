@@ -1,0 +1,28 @@
+@import 'bootstrap/scss/bootstrap'; // Importar Bootstrap
+
+// Estilos personalizados para el backend
+.wrap {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    &:focus {
+        border-color: #007bff;
+    }
+}
+
+.table-custom {
+    border-collapse: collapse;
+    width: 100%;
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    th {
+        background-color: #f1f1f1;
+    }
+}
