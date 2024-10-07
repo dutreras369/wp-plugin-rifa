@@ -94,26 +94,26 @@ Los estilos y scripts principales se encuentran en:
 /rifa-virtual-espacios/
 ├── assets/
 │   ├── css/
-│   │   ├── style.css            # Estilos del frontend
-│   │   └── admin-style.css       # Estilos del backend (admin)
+│   │   ├── style.css
+│   │   └── admin-style.css
 │   └── js/
-│       ├── rifa.js              # Lógica del frontend (formulario de compra de rifas, etc.)
-│       └── admin-scripts.js     # Lógica del backend (administración de rifas)
+│       ├── rifa.js
+│       └── admin-scripts.js
 ├── includes/
-│   ├── class-rve-cpt.php                # Clase para Custom Post Types
-│   ├── class-rve-metaboxes.php          # Clase para los Metaboxes
-│   ├── class-rve-shortcodes.php         # Clase para Shortcodes
-│   ├── class-rve-ajax.php               # Clase para manejo de AJAX
-│   ├── class-rve-email.php              # Clase para envío de emails automáticos
-│   ├── class-rve-webpay.php             # Clase para integración con WebPay
-│   └── class-rve-admin.php              # Clase para el panel de administración
+│   ├── class-rve-cpt.php
+│   ├── class-rve-metaboxes.php
+│   ├── class-rve-shortcodes.php
+│   ├── class-rve-ajax.php
+│   ├── class-rve-email.php
+│   ├── class-rve-webpay.php
+│   └── class-rve-admin.php
 ├── templates/
-│   ├── single-rifas.php                 # Plantilla para página de rifa individual
-│   ├── archive-rifas.php                # Plantilla para archivo de rifas
-│   └── results-rifas.php                # Plantilla para resultados de rifas
-├── rifa-virtual-espacios.php            # Archivo principal del plugin
-├── uninstall.php                        # Archivo para desinstalación del plugin
-└── README.md                            # Archivo de documentación
+│   ├── single-rifas.php
+│   ├── archive-rifas.php
+│   └── results-rifas.php
+├── rifa-virtual-espacios.php
+├── uninstall.php
+└── README.md
 
 
 ### Próximos Pasos
